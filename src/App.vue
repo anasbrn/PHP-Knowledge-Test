@@ -10,10 +10,16 @@ export default {
       questions: [
         {
           title: "What is PHP ?",
-          correct_answer
-        }
+          correct_answer:1,
+          answers: [
+            "HyperText PreProcessor",
+            "Personal HomePage",
+            "Private Hypertext Processor",
+            "All the above are incorrect",
+          ],
+        },
       ]
-    },
+    };
   }
 }
 </script>
